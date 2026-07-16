@@ -2,7 +2,7 @@ package array;
 
 public class TestArray {
 	public static void main(String[] args) {
-		int [] a = {10, 20, 30, 40, 50,};
+		int [] a = {10, 20, 30, 40, 50,51,55};
 		System.out.println("length of a is :" + a.length);
 		
 		System.out.println(a[0] + "," + a[1] + "," + a[2] + "," + a[3] + "," + a[4] );
