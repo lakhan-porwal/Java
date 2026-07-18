@@ -12,7 +12,7 @@ public class Calculator {
 			System.out.println("Result" + (a + b));
 			break;
 		case "-":
-			System.out.println("Result" + (a + b));
+			System.out.println("Result" + (a - b));
 			break;
 
 		}
