@@ -53,6 +53,18 @@ public class Person {
 		return age;
 	}
 
+	public void setDob(String string) {
+		
+	}
+
+	public void setDateOfBirth(Date date) {
+		
+	}
+
+	public char[] getDateOfBirth() {
+		return null;
+	}
+
 	
 	}
 	
