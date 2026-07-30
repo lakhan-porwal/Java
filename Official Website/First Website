@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio website for Lakhan Porwal" />
+    <title>Lakhan Porwal | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="logo" href="#home">Lakhan Porwal</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#resume">Resume</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">Personal Portfolio</p>
+          <h1>Hi, I’m Lakhan Porwal</h1>
+          <p class="hero-text">
+            I’m a 19-year-old learner from Madhya Pradesh, currently exploring the
+            world of Java programming while staying active in sports and personal growth.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Let’s Connect</a>
+            <a class="btn btn-secondary" href="#skills">Explore My Skills</a>
+          </div>
+          <div class="quick-facts">
+            <div>
+              <strong>Age</strong>
+              <span>19</span>
+            </div>
+            <div>
+              <strong>Education</strong>
+              <span>12th Pass (MP Board)</span>
+            </div>
+            <div>
+              <strong>Learning</strong>
+              <span>Java Programming</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image-card">
+          <img src="IMG_7334.JPG" alt="Lakhan Porwal" />
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>What I’m Building</h2>
+        </div>
+        <div class="card-grid">
+          <article class="info-card">
+            <h3>Java Programming</h3>
+            <p>Currently learning core Java concepts and strengthening my problem-solving approach.</p>
+          </article>
+          <article class="info-card">
+            <h3>Web Basics</h3>
+            <p>Comfortable with HTML, CSS, and JavaScript for creating polished and interactive web pages.</p>
+          </article>
+          <article class="info-card">
+            <h3>Creative Thinking</h3>
+            <p>Focused on building simple, meaningful, and user-friendly experiences with strong visual presentation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow">Gallery</p>
+          <h2>Sports & Passion</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <h3>Cricket</h3>
+            <p>State Level Cricket Player</p>
+          </div>
+          <div class="gallery-item">
+            <h3>Table Tennis</h3>
+            <p>Division Level Player</p>
+          </div>
+          <div class="gallery-item">
+            <h3>Volleyball</h3>
+            <p>Division Level Competitor</p>
+          </div>
+          <div class="gallery-item">
+            <h3>Kho-Kho</h3>
+            <p>District Level Achievement</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="section-heading">
+          <p class="eyebrow">Resume</p>
+          <h2>Quick Summary</h2>
+        </div>
+        <div class="resume-card">
+          <ul>
+            <li>12th Pass from MP Board</li>
+            <li>Strong interest in programming and technology</li>
+            <li>Active participant in multiple sports disciplines</li>
+            <li>Committed to continuous learning and improvement</li>
+          </ul>
+          <a class="btn btn-primary" href="mailto:porwallakhan369@gmail.com">Request Resume</a>
+        </div>
+      </section>
+
+      <section class="section" id="achievements">
+        <div class="section-heading">
+          <p class="eyebrow">Achievements</p>
+          <h2>Milestones That Matter</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>State Level Cricket</h3>
+            <p>Represented at the state level in cricket.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Table Tennis Division</h3>
+            <p>Achieved division-level performance in table tennis.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Volleyball Division</h3>
+            <p>Earned recognition in division-level volleyball.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Kho-Kho District</h3>
+            <p>Showed excellence at the district level in kho-kho.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Athletics Participation</h3>
+            <p>Actively participated in athletics events and contests.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s Get in Touch</h2>
+        </div>
+        <div class="contact-card">
+          <p>Feel free to reach out for collaboration, discussion, or a simple hello.</p>
+          <a href="tel:+919575684621">9575684621</a>
+          <a href="mailto:porwallakhan369@gmail.com">porwallakhan369@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Lakhan Porwal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
