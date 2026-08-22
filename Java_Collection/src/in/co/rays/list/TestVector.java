@@ -11,8 +11,8 @@ public class TestVector {
 		v.addElement("Atul");
 		v.addElement(7);
 		
-		System.out.println(v.elementAt(0));
-		System.out.println(v.get(1));
+		System.out.println(v.elementAt(1));
+		System.out.println(v.get(0));
 		
 	}
 
