@@ -36,9 +36,11 @@ public class Account {
       public void withdrawal(double wamt ) {
     	if (wamt > balance)  {
     		System.out.println("insufficent fund transfer ");
+    		
+    		
     	} else {
     		balance = balance - wamt ;
-    		System.out.println("toatal balance after withdrawal :" + balance);
+    		System.out.println("total balance after withdrawal :" + balance);
     	}
     		
       }

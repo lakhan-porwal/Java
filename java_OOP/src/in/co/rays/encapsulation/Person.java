@@ -23,7 +23,7 @@ public class Person {
 	public Date getDob() {
 		return dob;
 		
-	}
+	}	
 	public void setDob(Date dob) {
 		this.dob = dob;
 	}
